@@ -6,9 +6,9 @@ metadata:
     # Specifies the Ingress Controller handling this (usually nginx)
     kubernetes.io/ingress.class: "nginx"
 spec:
-  ingessClassName: nginx
+  ingressClassName: nginx
   rules:
-    - host: go-web-app.local        # CRITICAL: Your domain name goes here
+    - host: golang-app.local        # CRITICAL: Your domain name goes here
       http:
         paths:
           - path: /                  # Matches all paths under this domain
