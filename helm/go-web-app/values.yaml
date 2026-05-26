@@ -8,7 +8,7 @@ image:
   repository: ram7800/mygowebapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "26459486629"
+  tag: "26459872410"
 
 ingress:
   enabled: false
